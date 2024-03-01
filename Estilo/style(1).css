@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #dcdcdc;
+}
+
+/* LAYOUT */
+
+#area-cabecalho {
+    background-color: #0869A6;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+
+}
+
+#area-menu a {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+}
+
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-principal-quartos {
+    width: 920px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+}
+
+#area-lateral {
+    background: white;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted black;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #0869A6;
+    color:#fff
+}
+
+/*FORMATACAO MENU*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #0869A6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #0869A6;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+
+/* FORMATACOES GERAIS */
+
+h1 {
+    color: #2c2c2c;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #0869A6;
+}
+
+h3 {
+    color: #0869A6;
+    background: #CCC;
+    padding: 5px;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.pingo {
+    width: 50px;
+}
+
+
+.card {
+    width: 50%;
+}
+
+.imgcard {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    display: inline;
+    border: 1px solid black;
+}
+
+.cardCorpo {
+    display: inline;
+    border: 1px solid black;
+    float: right;
+}
+
+/* ROOMS */
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.page-wrapper a {
+    text-decoration: none;
+}
+
+.room {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.room:hover {
+    border: 1px solid #0869A6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.room .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.room .info header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.room .info footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .rank {
+    color: #FFF;
+    background: #0869A6;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.container-sobre{
+    margin: 10px;
+    padding: 25px;
+    background-color: #fff;
+    
+}
+
+#area-lateral-sobre{
+    width: 240px;
+    float: right;
+    margin-right: 480px;
+
+}

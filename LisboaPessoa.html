@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Estilo/rooms-style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+	<script src="script/lisboaPessoa.js"></script>
+	<title>Lisboa Pessoa</title>
+</head>
+
+<body>
+	 <!--ESSA AQUI É TODA A PARTE DE CIMA DO SITE(CABECALHO)-->
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1><strong>Pinguim</strong><span class="branco">Hotel<img src="img/icoPingo.png" class="pingo"></span></h1>
+            
+        </div>
+
+    <!--ESSA AQUI É NAVBAR-->
+        <div id="area-menu">
+            <a href="home.html">Home</a>
+            <a href="rooms.html">Hotéis</a>
+            <a href="aboutus.html">Sobre Nós</a>
+            <a href="contact.html">Contacto</a>
+        </div>
+    </div>
+
+    <div id="area-principal">
+        <div id="area-postagens">
+
+	<p>
+
+	</p>
+	<main>
+		<div id="carouselExampleIndicators" class="carousel slide">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="img/LisboaPessoa.png" class="d-block w-100">
+			  </div>
+			  <div class="carousel-item">
+				<img src="img/lisboa2.png" class="d-block w-100" >
+			  </div>
+			  <div class="carousel-item">
+				<img src="img/Lisboa3.png" class="d-block w-100">
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+		<div class="checagem">
+			<form action="/action_page.php">
+				<label for="date">Check-in:</label>
+				<input type="date" id="in" name="Check-in">
+			  </form>
+			  
+		</div>
+		<div>
+			<form action="/action_page.php">
+				<label for="date">Check-out:</label>
+				<input type="date" id="out" name="Check-out">
+			  </form>
+			  
+		</div>
+		<div class="hotel-info">
+			<div class="info-text">
+				<h1>Lisboa Pessoa</h1>
+				<p>
+					Bem-vindo ao Lisboa Pessoa, onde a magia da poesia se entrelaça com o charme da capital portuguesa. 
+					Cada canto deste hotel é uma homenagem ao ilustre poeta Fernando Pessoa, 
+					proporcionando uma experiência única e inspiradora.
+				</p>
+			</div>
+
+
+			<div class="comodities">
+				<h2>Comodidades</h2>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-wifi" width="28"
+						height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+						stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M12 18l.01 0" />
+						<path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
+						<path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
+						<path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0" />
+					</svg>
+					<p>Wifi</p>
+				</div>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="28"
+					    height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+						<path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+						<path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+					  </svg>
+					<p>Garagem</p>
+				</div>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="28" 
+					    height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+					  </svg> 					  
+					<p>Restaurante</p>
+				</div>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-snowflake" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<path d="M10 4l2 1l2 -1" />
+						<path d="M12 2v6.5l3 1.72" />
+						<path d="M17.928 6.268l.134 2.232l1.866 1.232" />
+						<path d="M20.66 7l-5.629 3.25l.01 3.458" />
+						<path d="M19.928 14.268l-1.866 1.232l-.134 2.232" />
+						<path d="M20.66 17l-5.629 -3.25l-2.99 1.738" />
+						<path d="M14 20l-2 -1l-2 1" />
+						<path d="M12 22v-6.5l-3 -1.72" />
+						<path d="M6.072 17.732l-.134 -2.232l-1.866 -1.232" />
+						<path d="M3.34 17l5.629 -3.25l-.01 -3.458" />
+						<path d="M4.072 9.732l1.866 -1.232l.134 -2.232" />
+						<path d="M3.34 7l5.629 3.25l2.99 -1.738" />
+					  </svg>
+					<p>Ar Condicionado</p>
+				</div>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-swimming" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<path d="M16 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+						<path d="M6 11l4 -2l3.5 3l-1.5 2" />
+						<path d="M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25" />
+					  </svg>
+					<p>Piscina</p>
+				</div>
+			</div>
+
+		</div>
+		<div>
+			<button id="reserve" class="button button2">Reservar</button>
+		</div>
+	</main>
+	<script src="script/lisboaPessoa.js"></script>
+</body>
+
+
+
+</html>

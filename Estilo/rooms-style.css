@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #dcdcdc;
+}
+#area-cabecalho {
+    background-color: #0869A6;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+#area-menu a {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    text-decoration: none;
+}
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.pingo {
+    width: 50px;
+}
+
+.branco {
+    color: white;
+}
+
+a:link,
+a:visited {
+    color: #0869A6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #0869A6;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+main {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 90%;
+    width: 800px;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+img {
+    width: 400px;
+}
+
+.hotel-info {
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hotel-info .info-text {
+    width: 60%;
+}
+
+.hotel-info .info-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hotel-info .info-text p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.hotel-info .comodities {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #0869A6;
+    border-radius: 10px;
+}
+
+.comodities h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.comodities div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #0869A6;
+    color: white;
+    border: 2px solid #008CBA;
+    
+  }
+  .button:hover {
+    background-color: #fff;
+    color: #0869A6;
+  }
+input[type="date"]{
+    background-color: #0869A6;
+    padding: 15px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.checagem{
+    margin: 10px;
+}
+
+.imagens-carrosel{
+    width: 100px;
+}
+
+
+
+

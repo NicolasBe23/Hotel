@@ -1,0 +1,151 @@
+#contacte-nos {
+    width: 920px;
+    line-height: 100px;
+}
+
+#contacte-nos h2 {
+    margin-top: 20px;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+#preencher {
+    width: 920px;
+    margin-top: 20px;
+
+}
+
+label#nome-proprio {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+input#nome-proprio {
+    margin: 5px;
+    padding: 7px;
+    width: 892px;
+    border: 1px solid #53aae1;
+}
+
+label#email-pessoa {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+input#email-pessoa {
+    margin: 5px;
+    padding: 7px;
+    width: 892px;
+    border: 1px solid #53aae1;
+}
+
+label#telefone-pessoa {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+input#telefone-pessoa {
+    margin: 5px;
+    padding: 7px;
+    width: 892px;
+    border: 1px solid #53aae1;
+}
+
+label#pais-pessoa {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+select#paises{
+    margin:  auto;
+    padding: 13px;
+    width: 400px;
+    border: 1px solid #53aae1;
+    display: block;
+    color: gray;
+
+}
+
+label#localidade-pessoa {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+input#localidade-pessoa {
+    margin: 5px;
+    padding: 7px;
+    width: 892px;
+    border: 1px solid #53aae1;
+}
+
+input#novidades{
+    width: 19px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer; 
+
+}
+
+#ofertas{
+    text-align: center;
+}
+
+label#novidades{
+    font-size: 1.1em;
+}
+
+#botao{
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+
+#cadastrar{
+    padding: 20px;
+    background-color: #0869A6;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+#cadastrar:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+#rodape-contact{
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+
+}
+
+
+.vermelho {
+    width: 5px;
+    padding-top: 10px;
+    color: red;
+    top: 5px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
